@@ -8,23 +8,50 @@ export default function LinksScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <OptionButton
-        icon="md-school"
-        label="Read the Expo documentation"
+        icon="ios-chatboxes"
+        label="Hotlines"
+        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        isLastOption
+      />
+      <OptionButton
+        icon="md-home"
+        label="Housing Assistance"
         onPress={() => WebBrowser.openBrowserAsync('https://docs.expo.io')}
       />
 
       <OptionButton
         icon="md-compass"
-        label="Read the React Navigation documentation"
+        label="Transportation"
         onPress={() => WebBrowser.openBrowserAsync('https://reactnavigation.org')}
       />
 
       <OptionButton
         icon="ios-chatboxes"
-        label="Ask a question on the forums"
+        label="Mental Health"
         onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
         isLastOption
       />
+
+      <OptionButton
+        icon="ios-chatboxes"
+        label="Health Care"
+        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        isLastOption
+      />  
+
+      <OptionButton
+        icon="ios-chatboxes"
+        label="Food"
+        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        isLastOption
+      />  
+
+      <OptionButton
+        icon="ios-chatboxes"
+        label="Reentry"
+        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        isLastOption
+      />  
     </ScrollView>
   );
 }

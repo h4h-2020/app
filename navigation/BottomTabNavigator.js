@@ -19,16 +19,32 @@ export default function BottomTabNavigator({ navigation, route }) {
         name="Home"
         component={HomeScreen}
         options={{
-          title: 'Get Started',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-code-working" />,
+          title: 'Home',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-home" />,
         }}
       />
       <BottomTab.Screen
         name="Links"
         component={LinksScreen}
         options={{
-          title: 'Resources',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-book" />,
+          title: 'Links',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-list" />,
+        }}
+      />
+      <BottomTab.Screen
+        name="Login"
+        component={LinksScreen}
+        options={{
+          title: 'Login',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-perm_id" />,
+        }}
+      />
+      <BottomTab.Screen
+        name="Sign Up"
+        component={LinksScreen}
+        options={{
+          title: 'Sign Up',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-account-add" />,
         }}
       />
     </BottomTab.Navigator>
