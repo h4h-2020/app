@@ -10,46 +10,46 @@ export default function LinksScreen() {
       <OptionButton
         icon="ios-chatboxes"
         label="Hotlines"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync('https://www.sccgov.org/sites/bhd/Services/SP/Pages/SPC.aspx')}
         isLastOption
       />
       <OptionButton
         icon="md-home"
         label="Housing Assistance"
-        onPress={() => WebBrowser.openBrowserAsync('https://docs.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync(' https://www.housing.org/')}
       />
 
       <OptionButton
         icon="md-compass"
         label="Transportation"
-        onPress={() => WebBrowser.openBrowserAsync('https://reactnavigation.org')}
+        onPress={() => WebBrowser.openBrowserAsync(' https://www.vta.org/go/accessibility')}
       />
 
       <OptionButton
         icon="ios-chatboxes"
         label="Mental Health"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync('https://www.communitysolutions.org/need-help/')}
         isLastOption
       />
 
       <OptionButton
         icon="ios-chatboxes"
         label="Health Care"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync('http://www.mysourcewise.com/')}
         isLastOption
       />  
 
       <OptionButton
         icon="ios-chatboxes"
         label="Food"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync('https://sacredheartcs.org/programs/food-clothing/')}
         isLastOption
       />  
 
       <OptionButton
         icon="ios-chatboxes"
         label="Reentry"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        onPress={() => WebBrowser.openBrowserAsync('https://law.stanford.edu/community-law-clinic/')}
         isLastOption
       />  
     </ScrollView>
